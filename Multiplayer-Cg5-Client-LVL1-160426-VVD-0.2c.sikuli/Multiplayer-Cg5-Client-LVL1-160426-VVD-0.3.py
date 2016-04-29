@@ -92,9 +92,9 @@ elif exists(Pattern("1461669319306.png").similar(0.90)):
     click("1461669963955.png")
     wait("1461671232017.png", FOREVER)
     click()
-    wait(Pattern("1461671279745.png").similar(0.60))
-    click()
-    
+    wait("1461671253872.png")
+    click("1461671279745.png")
+
 ###################
 # UNI Real Estate #
 ###################
@@ -107,14 +107,12 @@ else:
     click()
     click()
     type(Key.SPACE)
-    wait("Multiplayer-CG5-UNI-LVL1-MiniMap1l-160426-VVD-0.1.png", 5)
-    click()
+    click("Multiplayer-CG5-UNI-LVL1-MiniMap1l-160426-VVD-0.1.png")
         
 # Building educational building
 
     click("Multiplayer-CG5-UNI-LVL1-BuildActionMenuBtn-160426-VVD-0.1.png")
-    wait(Pattern("Multiplayer-CG5-UNI-LVL1-EduLuxuryBtn-160426-VVD-0.1.png").similar(0.62), 5)
-    click()
+    click("Multiplayer-CG5-UNI-LVL1-EduLuxuryBtn-160426-VVD-0.1.png")
     dragDrop(Pattern("Multiplayer-CG5-UNI-LVL1-EduLuxeLocation-160426-VVD-0.1.png").targetOffset(-85,-90), Pattern("Multiplayer-CG5-UNI-LVL1-EduLuxeLocation-160426-VVD-0.1.png").targetOffset(67,78))
     click("1461669742268.png")
     wait("1461669772050.png", 5)
@@ -125,5 +123,5 @@ else:
     click("1461669963955.png")
     wait("1461671232017.png", FOREVER)
     click()
-    wait(Pattern("1461671279745.png").similar(0.60))
-    click()
+    wait("1461671253872.png")
+    click("1461671279745.png")
