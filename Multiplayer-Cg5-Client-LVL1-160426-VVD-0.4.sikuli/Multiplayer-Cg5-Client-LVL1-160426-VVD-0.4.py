@@ -133,7 +133,7 @@ elif Settings.isMac():
     ################
     # Municipality #
     ################
-    if exists(Pattern("Multiplayer-CG5-MAC-Municipality-LVL1-IntroPanel-160428-VVD-0.1.png").similar(0.79), 10):
+    if exists("Multiplayer-CG5-MAC-Municipality-LVL1-IntroPanel-160428-VVD-0.1.png", 10):
         print"[info] Municipality selected on OSX as stakeholder" 
         logging.info("[info] Municipality selected on OSX as stakeholder")
         find("Multiplayer-CG5-MAC-Municipality-LVL1-IntroMainView-160428-VVD-0.1.png")
